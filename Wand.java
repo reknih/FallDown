@@ -8,8 +8,9 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Wand extends Actor
 {
-    public int Reichweite;
-    public int Flugrichtung;
+    public int reichweite;
+    public int flugrichtung;
+    public final int GESCHWINDIGKEIT = 5;
 
     public void act() 
     {
@@ -17,15 +18,10 @@ public class Wand extends Actor
         wandVerschwindet ();
     } 
     
-    public Wand (int Flugrichtung)
+    public Wand ()
     {
-        Reichweite = 800 ;
-        Flugrichtung=1;
-    }
-
-    public Wand()
-    {
-
+        reichweite = 800;
+        flugrichtung = 1;
     }
     
     public void bewegen()
@@ -33,17 +29,17 @@ public class Wand extends Actor
         int x = getX();
         int y= getY();
 
-        if (Flugrichtung == 1)
+        if (flugrichtung == 1)
         {
-            setLocation(x, y+5);
-            Reichweite= Reichweite--;
+            setLocation(x, y + GESCHWINDIGKEIT);
+            reichweite = reichweite - GESCHWINDIGKEIT;
 
         }
     }
 
     public void wandVerschwindet ()
     {
-        if (Reichweite == 5) {
+        if (reichweite <= 5) {
             getWorld().removeObject(this);
 
         }

@@ -1,12 +1,10 @@
 #BlueJ class context
 comment0.params=
 comment0.target=void\ act()
-comment1.params=Flugrichtung
-comment1.target=Wand(int)
+comment1.params=
+comment1.target=Wand()
 comment2.params=
-comment2.target=Wand()
+comment2.target=void\ bewegen()
 comment3.params=
-comment3.target=void\ bewegen()
-comment4.params=
-comment4.target=void\ wandVerschwindet()
-numComments=5
+comment3.target=void\ wandVerschwindet()
+numComments=4
