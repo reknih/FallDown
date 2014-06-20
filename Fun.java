@@ -19,67 +19,50 @@ public class Fun extends World
         super(1200, 800, 1); 
         Greenfoot.setSpeed(10);
     }
-    
-    
-    
+
     public void act(){
-    
-    
-    
-    
-
-
-   
-    {if(Greenfoot.getRandomNumber(36)<23)
-        {addObject(new Wand(),Greenfoot.getRandomNumber(800),0);
+        if(Greenfoot.getRandomNumber(36)<23)
+        {
+            addObject(new Wand(),Greenfoot.getRandomNumber(800),0);
+        }
+        if(Greenfoot.getRandomNumber(36)<23)
+        {
+            addObject(new Wand(),Greenfoot.getRandomNumber(700),0);
+        }
+        if(Greenfoot.getRandomNumber(36)<23)
+        {
+            addObject(new Wand(),Greenfoot.getRandomNumber(600),0);
         }
 
-    }
-    
-{if(Greenfoot.getRandomNumber(36)<23)
-        {addObject(new Wand(),Greenfoot.getRandomNumber(700),0);
+        if(Greenfoot.getRandomNumber(36)<23)
+        {
+            addObject(new Wand(),Greenfoot.getRandomNumber(500),0);
         }
-}
 
-{if(Greenfoot.getRandomNumber(36)<23)
-        {addObject(new Wand(),Greenfoot.getRandomNumber(600),0);
+        if(Greenfoot.getRandomNumber(36)<23)
+        {
+            addObject(new Wand(),Greenfoot.getRandomNumber(400),0);
         }
-        
- {if(Greenfoot.getRandomNumber(36)<23)
-        {addObject(new Wand(),Greenfoot.getRandomNumber(500),0);
-        }
-        
- {if(Greenfoot.getRandomNumber(36)<23)
-        {addObject(new Wand(),Greenfoot.getRandomNumber(400),0);
-        }
-  
- {if(Greenfoot.getRandomNumber(36)<23)
-        {addObject(new Wand(),Greenfoot.getRandomNumber(300),0);
+
+        if(Greenfoot.getRandomNumber(36)<23)
+        {
+            addObject(new Wand(),Greenfoot.getRandomNumber(300),0);
         } 
-        
- {if(Greenfoot.getRandomNumber(36)<23)
-        {addObject(new Wand(),Greenfoot.getRandomNumber(200),0);
+
+        if(Greenfoot.getRandomNumber(36)<23)
+        {
+            addObject(new Wand(),Greenfoot.getRandomNumber(200),0);
         }
-        
- {if(Greenfoot.getRandomNumber(36)<23)
-        {addObject(new Wand(),Greenfoot.getRandomNumber(100),0);
+
+        if(Greenfoot.getRandomNumber(36)<23)
+        {
+            addObject(new Wand(),Greenfoot.getRandomNumber(100),0);
         }
-        
-        
- {if(Greenfoot.getRandomNumber(36)<23)
-        {addObject(new Wand(),Greenfoot.getRandomNumber(1),0);
+        if(Greenfoot.getRandomNumber(36)<23)
+        {
+            addObject(new Wand(),Greenfoot.getRandomNumber(1),0);
         }
-        
     }
-}
-}
-}
-}
-}
-}
-}
-        
-    
 }
 
 

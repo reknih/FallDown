@@ -11,39 +11,41 @@ public class Wand extends Actor
     public int Reichweite;
     public int Flugrichtung;
 
-       public void act() 
-    {bewegen();
-      wandVerschwindet ();
+    public void act() 
+    {
+        bewegen();
+        wandVerschwindet ();
     } 
     
-    public Wand (int Flugrichtung){
-    Reichweite = 800 ;
-    Flugrichtung=1;
-    }
-    
-    public void bewegen(){
-    int x = getX();
-    int y= getY();
-    
-    if (Flugrichtung == 1){
-    setLocation(x, y+5);
-    Reichweite= Reichweite--;
-    
-    }
-}
-   
-
-     public void wandVerschwindet (){
-    if (Reichweite == 5) {
-        getWorld().removeObject(this);
-    
+    public Wand (int Flugrichtung)
+    {
+        Reichweite = 800 ;
+        Flugrichtung=1;
     }
 
+    public Wand()
+    {
+
+    }
     
-   
-    
-    
-    
-    
+    public void bewegen()
+    {
+        int x = getX();
+        int y= getY();
+
+        if (Flugrichtung == 1)
+        {
+            setLocation(x, y+5);
+            Reichweite= Reichweite--;
+
+        }
+    }
+
+    public void wandVerschwindet ()
+    {
+        if (Reichweite == 5) {
+            getWorld().removeObject(this);
+
+        }
     }   
 }
