@@ -1,0 +1,18 @@
+#Greenfoot properties
+#Fri Jun 20 13:21:33 CEST 2014
+class.rocket.image=rocket.png
+class.Fun.image=space.jpg
+class.Fun.superclass=greenfoot.World
+simulation.speed=60
+class.yellowPoint.image=yellow-draught.png
+class.bomb.image=bomb.png
+class.yellowPoint.superclass=greenfoot.Actor
+class.rocket.superclass=greenfoot.Actor
+class.Wand.image=Wall.jpg
+project.charset=UTF-8
+version=2.5.0
+class.bomb.superclass=greenfoot.Actor
+class.Runer.image=tux.png
+world.lastInstantiated=Fun
+class.Runer.superclass=greenfoot.Actor
+class.Wand.superclass=greenfoot.Actor
